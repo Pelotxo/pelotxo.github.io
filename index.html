@@ -1,7 +1,110 @@
-<html>
-  <body>
-    buenos dias a todos
-    <b>esta es la pagina inicial de mi sitio web</b>
-  </body>
-
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Derivado de "Proyecto: invitación a un evento"</title>
+        
+        <style>
+           body{
+               background-color: #121212;
+               color:rgb(133, 255, 137);
+               margin: 0px;
+               padding: 20px;
+               font-family: 'Akkadian', sans-serif;
+               line-height: 1.6;
+           }
+           #Titulo {
+               background-color: #1db954;
+               color:rgb(84, 0, 252);
+               font-family:'Mincer BRK', sans-serif;
+               text-align:center;
+               padding:20px;
+               border-radius: 10px;
+           }
+           #sub {
+               background-color: #535353;
+               color: #1db954;
+               font-family: 'Blox BRK', sans-serif;
+               text-align:center;
+               padding: 15px;
+               border-radius:5px;
+               margin-bottom:20px;
+           }
+           #container {
+               width:38%;
+               padding:8px;
+               float:left;
+               background-color: #282828;
+               border-radius:10px;
+           } 
+           .Text {
+             display:flex;
+             align-items:center;
+             padding:10px;
+             border-bottom: 1px solid #3e3e3e;
+           }
+           .Text img {
+               margin-left:10px;
+               width:50%;
+               height:50%;
+           }
+           .Text:hover {
+            background-color: #1db954;
+            transition: background-color 0.3s ease;
+        }
+         #music {
+             width: 50%;
+             float: right;
+             padding: 15px;
+             background-color: #282828;
+             border-radius:10px;
+         }   
+         h1, h2 {
+             margin: 10px 0;
+         }
+        </style>
+    </head>
+    
+    <body>
+        
+        <header>
+            <h1 id="Titulo">LISU'S FESTIVAL</h1>
+            <h2 id="sub">FESTIVAL DE MUSICA EN DIRECTO</h2>
+        </header>
+        <main>
+            
+            <section id="container">
+               <h3>Participan:</h3>
+               <ul>
+                   <li class="Text">
+                    <span>Lisú</span>
+                
+                </li>
+                <li class="Text">
+                    <span>The Mars Volta</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/The_Mars_Volta.jpg" alt="the mars volta">
+                </li>
+                <li class="Text">
+                    <span>Deftones</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Deftones_%28Logo%29.png" alt="TripleSiete">
+                </li>
+                <li class="Text">
+                    <span>Closure in Moscow</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/7/78/ClosureFirstTemple.jpg" alt="closure in moscow">
+                </li>
+                <li class="Text">
+                    <span>Red Hot Chilli Pepers</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Red_Hot_Chili_Peppers_logo.svg/800px-Red_Hot_Chili_Peppers_logo.svg.png" alt="Red Hot chilli pepers">
+                </li>
+               </ul>
+            </section>
+            <section id="music">
+            <p>El festival se celebrara el dia 24 de octubre de 2025 en Mostoles-El Soto, la entrada son 30 euros por persona y se podran comprar online, en distintas paginas web, a parte de los invitados tambien habra artistas sorpresa y tambien hay invitados sin confirmar, tampoco esta confirmado el orden de actuacion, habra varias carpas en las cuales habra distintod tipos de artistas, desde rap hasta pop</p>
+        </section>
+            
+        </main>
+        
+    </body>
+    
 </html>
